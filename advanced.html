@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!--Css -->
+        <link rel="stylesheet" href="./build/css/app.css">
+
+        <!--Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Google Search </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./advanced.html" class="nav-link">Advnced Search</a>
+                </li>
+            </ul>
+        </header>
+        
+        <div>
+            <h1 class="h1-advanced">Advanced Search</h1>
+        </div>
+        <div class="line"></div>
+        <div class="div-advanced">
+
+            <h2 class="h2-advanced">Find pages with...</h2>
+
+            <form action="https://www.google.com/search" class="form">
+                <div class="row-input">
+                    <div class="left">
+                        <p>all these words</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_q" class="form-input">
+                    </div>
+                </div>
+
+                <div class="row-input">
+                    <div class="left">
+                        <p>this exact word or phrase</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_epq" class="form-input">
+                    </div>
+                </div>
+
+                <div class="row-input">
+                    <div class="left">
+                        <p>any of these words</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_oq" class="form-input">
+                    </div>
+                </div>
+
+                <div class="row-input">
+                    <div class="left">
+                        <p>none of these words</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_eq" class="form-input">
+                    </div>
+                </div>
+
+                <div class="btn-div">
+                    <input type="submit" value="Advanced Search" class="btn-advanced">
+                </div>
+            </form>
+        
+        </div>
+
+       
+    </body>
+</html>
